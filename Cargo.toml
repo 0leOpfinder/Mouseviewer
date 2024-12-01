@@ -6,4 +6,7 @@ edition = "2021"
 [dependencies]
 eframe = "0.29.1"
 egui_extras = { version = "*", features = ["all_loaders"] }
+glob = "0.3.1"
 image = "0.24"
+tokio = { version = "1.41.1", features = ["full"] }
+walkdir = "2.5.0"
